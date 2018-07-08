@@ -1,0 +1,84 @@
+/* Lazy browser reset */
+#menu{
+  text-align: center;
+  display: inline;
+  
+}
+#title {
+  font-family: Open Sans, sans-serif;
+  text-align: center;
+  color:#45a0a5;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+body {
+    background-color: #ffffff;
+}
+ul {
+  /*width: 1600px;*/
+  /*margin: 5px auto;*/
+  /*overflow: auto;*/
+  list-style: none;
+  /*text-align: center;*/
+  
+}
+
+	ul #horizontal-list li {
+		display: inline;
+	}
+
+li {
+  font-family: Open Sans, sans-serif;
+  font-size: 30px;
+  /*text-align: center;*/
+  font-weight:350;
+  float: left;
+  padding-right: 20px;
+  padding-left: 20px;
+  border-right: 1px solid #200;
+  
+}
+
+li:last-child {
+  border: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #f4b942;
+  
+  /* transitions & animations
+  transition: all .5s ease;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all .5s ease;
+  -o-transition: all .5s ease; */
+}
+
+li a:hover {
+  color: #45a0a5;
+}
+
+li.current a {
+  color: #45a0a5;
+  font-weight: normal;
+}
+
+
+
+
+/** {*/
+/*  margin: 0;*/
+/*  padding: 0;*/
+/*  text-align: center;*/
+/*}*/
+
+
+/*nav {*/
+  /*margin: 50px auto;*/
+/*  width: 500px;*/
+/*  height: 40px;*/
+/*  text-align: center;*/
+/*}*/
+
+/* list styles */
